@@ -3,7 +3,7 @@ main(){
 	int mois, annee;
     printf("Entrez le numero du mois (1-12) : ");
     scanf("%d", &mois);
-    while !(1<=mois<=12){
+    while (!(1<=mois && mois<=12)){
     	printf("Entrez le numero du mois (1-12) : ");
     	scanf("%d", &mois);
 	}
@@ -18,4 +18,5 @@ main(){
         	printf("Fevrier a 28 jours.\n");
             break;
 		}
+}
 }

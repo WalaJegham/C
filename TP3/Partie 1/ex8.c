@@ -44,7 +44,7 @@ int main(){
   i=0;j=0;l=0;
   while (i<n && j<k)
   {
-    if(m[i]<p[i]){
+    if(m[i]<p[j]){
       t[l++]=m[i++];
     }
     else{

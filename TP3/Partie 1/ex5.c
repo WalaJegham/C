@@ -27,7 +27,7 @@ int main(){
     }
     if(p<q){
         for(i=0;i<p;i++){
-            for(j=0;j<q;i++){
+            for(j=0;j<q;j++){
                 if(ta[i]==tb[j]){
                     sous+=1;
                 }
@@ -36,7 +36,7 @@ int main(){
     }
     else{
         for(i=0;i<q;i++){
-            for(j=0;j<p;i++){
+            for(j=0;j<p;j++){
                 if(tb[i]==ta[j]){
                     sous+=1;
                 }

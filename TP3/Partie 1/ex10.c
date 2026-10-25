@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-	int t[5],i,echange=1;
+	int t[5],i,echange=1,aux;
 	//Tri Insertion
 	printf("Donner T[0] :");
 	scanf("%d",&t[0]);
@@ -8,7 +8,7 @@ int main(){
 		do{
 			printf("T[%d]=",i);
 			scanf("%d",&t[i]);
-		}while(t[i]<t[i+1]);
+		}while(t[i]<t[i-1]);
 	}
 	//tri a bulle
 	int n=5;	

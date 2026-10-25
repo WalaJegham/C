@@ -6,6 +6,7 @@ main(){
 	float u=1;
 	float x=signe/k;
 	while(fabs(u-x)>eps){
+		x=u;
 		signe*=(-1);
 		k+=2;
 		u+=signe/k;
